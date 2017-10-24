@@ -1,0 +1,166 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', monospace;
+}
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    color: green;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 85%;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.wrapper {
+    box-shadow: 0 0 5px gray;
+    text-align: left;
+    align-items: center;
+    width: 28%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.wrapper h3 {
+    font-size: 22px;
+    color: green;
+}
+
+.wrapper .line {
+    border-top: 1px solid darkgray;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.wrapper .center {
+    display: flex;
+    align-items: center;
+}
+
+.center .left {
+    margin: 20px;
+    margin-left: 0;
+}
+
+.center h4 {
+    font-size: 32px;
+}
+
+.center h4:before {
+    content: '$';
+    margin-right: 5px;
+    font-size: 20px;
+    vertical-align: top;
+    color: gray;
+}
+
+.center h5 {
+    color: darkgray;
+    text-align: center;
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+.right {
+    align-items: center;
+    margin-right: 20px;
+}
+
+.center .right p {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px 0;
+}
+
+.wrapper ul {
+    margin: 20px;
+    margin-left: 0;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.wrapper li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    margin-right: 10px;
+    color: green;
+}
+
+button {
+    padding: 10px 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border:none;
+    border-radius: 3px;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.green {
+    background-color: forestgreen;
+    color: white;
+}
+
+.green h3 {
+    color: white;
+}
+
+.green .line {
+    border-color: white;
+}
+
+.green h4:before {
+    color: white;
+}
+
+.green h5 {
+    color: white;
+}
+
+.green .right p {
+    color: white;
+}
+
+.green li:before {
+    color: white;
+}
+
+.green button {
+    background-color: white;
+    color: black;
+}
